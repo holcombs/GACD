@@ -7,7 +7,7 @@ GACD
 
 **Codebook**
 
-The script run_Analysis.R reads the features datasets, selects only those features that represent means and standard deviations and combines this with activity information and subject ids for both TEST and TRAINING data sets.  The columns are then labeled appropriately (see below).  The data in this resultant data set is then transformed using means to create a table ('analysis.txt') that contains the summarized data for each subject, activity and feature.  For more information about the collection of data and the types of features tracked, see the Sources section below.
+The script run_Analysis.R reads the features datasets, selects only those features that represent means (including mean frequencies) and standard deviations and then combines this with activity information and subject ids for both TEST and TRAINING data sets.  The columns are then labeled appropriately (see below).  The data in this resultant data set is then transformed using means to create a table ('analysis.txt') that contains the summarized data for each subject, activity and feature.  For more information about the collection of data and the types of features tracked, see the Sources section below.
 
 **Data Dictionary**
 The following fields appear in the data table
